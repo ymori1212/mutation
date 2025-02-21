@@ -1,0 +1,10 @@
+services:
+  mutmut:
+    restart: no
+    build: .
+    container_name: 'mutmut-container'
+    working_dir: '/root/mutation-testing'
+    tty: true
+    volumes:
+      - ./src:/root/mutation-testing/src
+      - ./tests:/root/mutation-testing/tests

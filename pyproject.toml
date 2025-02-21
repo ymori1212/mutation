@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mutation"
+version = "0.1.0"
+description = "Mutation test sample code."
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "mutation", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mutmut = "^3.2.3"
+pytest-cov = "^6.0.0"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+testpaths = ["tests",]
+
+[tool.mutmut]
+paths_to_mutate = ["src/"]
+tests_dir = ["tests/"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
