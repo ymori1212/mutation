@@ -32,5 +32,5 @@ mutmut browse
 
 - [ロバストなテストを実現するミューテーションテストの魅力](https://qiita.com/ymori1212/items/4077440b6eac882d0f7a)
 - [ミューテーションテストにおける小さな変更（ミュータント）の種類](https://qiita.com/ymori1212/items/f806fe7e1bf76dcb89e1)
-- Pythonでミューテーションテストを行うmutmutを動かしてみた 執筆中
+- [Pythonでミューテーションテストを行うmutmutを動かしてみた](https://qiita.com/ymori1212/items/8c85f44c324a69b7ac0f)
 
